@@ -1,0 +1,8 @@
+@using ViewModelFun.Models
+@model User
+    <h3>Here are some Users!</h3>
+@{
+    foreach(var x in @Model.users){
+        <p>@x</p>
+    }
+}

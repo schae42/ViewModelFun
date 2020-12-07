@@ -1,0 +1,8 @@
+﻿    <h3>Here are some numbers!</h3>
+@using ViewModelFun.Models
+@model Number
+@{
+    foreach(var x in @Model.list){
+        <p>@x</p>
+    }
+}
